@@ -1,0 +1,38 @@
+#teste{
+    width: 90%;
+    height: 700px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 480px) {
+    #teste{
+       background-color: brown;
+    }
+    h1{
+        font-size:48px ;
+    }
+}
+@media (min-width: 481px) and (max-width: 680px) {
+    #teste{
+       background-color: yellow;
+    }
+    h1{
+        font-size:12px ;
+    }}
+@media (min-width: 681px) and (max-width: 980px) {
+        #teste{
+           background-color: rgb(151, 40, 173);
+        }
+        h1{
+            font-size:60px ;
+        }
+    }
+    @media (min-width: 981px)  {
+        #teste{
+           background-color: rgb(44, 189, 169);
+        }
+        h1{
+            font-size:90px ;
+        }}
